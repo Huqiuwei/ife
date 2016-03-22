@@ -7,7 +7,10 @@ body{
 	padding: 20px;
 	background-color: #eee;
 }
-
+.teamname {
+	float: left;
+	color: white;
+}
 /*左盒子*/
 .left{
 	width: 160px;
