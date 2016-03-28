@@ -1,0 +1,243 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: '微软雅黑';
+}
+li{
+    list-style: none;
+}
+body{
+    font-size:16px;
+}
+.head{
+    background-color: #91D4DA;
+    height: 8vh;
+    line-height: 8vh;
+}
+.head a{
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    left: 1rem;
+}
+.head a::before{
+    content: "<";
+}
+.head h1{
+    color: white;
+    font-weight: 200;
+    font-size: 1.5rem;
+    text-align: center;
+}
+nav{
+    height: 2rem;
+}
+nav li{
+    font-size: 1rem;
+    line-height: 2rem;
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+.nav_active{
+    border-bottom: 2px solid deepskyblue;
+}
+#part_1 img{
+    width: 100%
+}
+
+#part_2 li{
+    padding: 10% 0;
+    width: 20%;
+    float: left;
+    font-size: 0.8rem;
+}
+#part_2 img{
+    margin: 0 auto;
+    width: 80%;
+    display: block;
+}
+#part_2 p{
+    text-align: center;
+}
+#part_2::after{
+    clear: both;
+    content: "";
+    width: 94%;
+    background-color: #dfdfdf;
+    height: 2px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    bottom: 0;
+}
+
+#part_3 li{
+    width: 33%;
+    float: left;
+    margin: 10% 0;
+}
+#part_3 img{
+    margin: 0 20%;
+    width: 60%;
+}
+#part_3 p{
+    text-align: center;
+}
+#part_3 li:not(:last-child){
+    border-right: 1px solid #dfdfdf;
+}
+#part_3::after{
+    clear: both;
+    content: "";
+    width: 100%;
+    background-color: #dfdfdf;
+    height: 20px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    bottom: 0;
+}
+
+#part_4 .title{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1rem;
+    line-height: 2rem;
+    border-bottom: 1px solid #000;
+}
+#part_4 ul{
+    width: 90%;
+    margin: 5% auto;
+}
+#part_4 li{
+    float: left;
+    width: 33%;
+    margin-bottom: 10%;
+}
+#part_4 img{
+    width: 95%;
+}
+#part_4 li p{
+    background-color: #f8f8f8;
+    font-size: 0.8rem;
+    line-height: 6vh;
+    text-align: center;
+    font-weight: 200;
+    border: 1vh solid #fff; 
+}
+#part_4::after{
+    clear: both;
+    content: "";
+    width: 100%;
+    background-color: #dfdfdf;
+    height: 20px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    bottom: 0;
+}
+
+#part_5 .title{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1rem;
+    line-height: 2rem;
+    border-bottom: 1px solid #000;
+}
+#part_5 ul{
+    width: 90%;
+    margin: 5% auto;
+}
+#part_5 li{
+    float: left;
+    width: 33%;
+    margin-bottom: 10%;
+}
+#part_5 img{
+    width: 95%;
+}
+#part_5 li p{
+    background-color: #f8f8f8;
+    font-size: 0.8rem;
+    line-height: 6vh;
+    text-align: center;
+    font-weight: 200;
+    border: 1vh solid #fff; 
+}
+#part_5::after{
+    clear: both;
+    content: "";
+    width: 100%;
+    background-color: #dfdfdf;
+    height: 20px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    bottom: 0;
+}
+
+#part_6{
+    width: 100%;
+    margin: 0 auto;
+}
+#part_6 li{
+    display: flex;
+    flex-flow: nowrap;
+    padding: 4%;
+    border-bottom: 1px solid #dfdfdf;
+}
+#part_6 img{
+    width: 40%;
+    height: 40%;
+    flex: 0 0 auto;
+}
+#part_6 aside{
+    display: inline-flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+#part_6 time{
+    font-size: 0.6rem;
+    vertical-align: bottom;/*设置一个元素的垂直对齐*/
+    color:#cacaca;
+}
+
+#part_7 aside{
+    display: inline-flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+#part_7 .title{
+    line-height: 3rem;
+}
+#part_7 .imgGroup{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+}
+#part_7 img{
+    width: 30%;
+    height: 100%;
+    
+}
+#part_7 time{
+    font-size: 0.6rem;
+    vertical-align: bottom;
+    color:#cacaca;
+}
+#part_7::after{
+    clear: both;
+    content: "";
+    width: 100%;
+    background-color: #dfdfdf;
+    height: 20px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    bottom: 0;
+}
